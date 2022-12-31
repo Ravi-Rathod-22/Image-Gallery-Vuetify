@@ -1,8 +1,12 @@
 <template>
-  <VApp>
-    <!-- SIDEBAR -->
-    <VMain>
+  <v-app>
+    <SideBar />
+    <v-main>
       <!-- CARDS -->
-    </VMain>
-  </VApp>
+    </v-main>
+  </v-app>
 </template>
+
+<script setup>
+import SideBar from "./components/SideBar.vue";
+</script>
