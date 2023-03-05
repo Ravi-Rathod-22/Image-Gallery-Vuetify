@@ -15,11 +15,14 @@
         prepend-icon="mdi-image"
         title="Color Gallery"
         value="color"
+        @click="$emit('selectOption', true)"
+
       ></v-list-item>
       <v-list-item
         prepend-icon="mdi-dialpad"
         title="GreySpace Gallery"
         value="greyspace"
+        @click="$emit('selectOption', false)"
       ></v-list-item>
     </v-list>
   </v-navigation-drawer>
